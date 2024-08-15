@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asignación</title>
+</head>
+<body>
+    <h1>Formulario HTML</h1>
+    <form>
+    <input type="date" >
+    
+        <label for="name">Nombre</label>
+        <input id= "name" >
+        <label for="username">Apellido</label>
+        <input id="username" >
+         <label for="email">Correo</label>
+        <input id="email" type="email">
+    <div>
+        <p>Nacionalidad</p>
+<label> Nacional</label>
+    <input type="radio" name="nationality" value="nacional">
+    <label> Extranjero</label>
+    <input type="radio" name="nationality" value="extranjero">
+    <div>
+        <label for="direction-one">Dirección 1</label>
+        <textarea name="" id="direction-one" cols="50" rows="4" ></textarea>
+    </div>
+<label for="direction-two">Dirección 2</label>
+<textarea name="" id="direction-two" cols="50" rows="4" ></textarea>
+</div>
+    <div>
+    <label>
+        <input type="checkbox">
+        Acepto términos y condiciones
+    </label>
+    </div>
+    <button >Enviar datos</button>
+    </form>    
+</body>
+</html>
